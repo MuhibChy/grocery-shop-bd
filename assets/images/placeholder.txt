@@ -1,0 +1,20 @@
+# Image Placeholder Directory
+
+This directory contains placeholder images for the grocery shop website.
+
+## Required Images:
+- hero-grocery.jpg (Hero section background)
+- placeholder.jpg (Product placeholder image)
+
+## Image Specifications:
+- Hero image: 800x600px minimum
+- Product images: 400x400px square format
+- Supported formats: JPG, PNG, WebP
+
+## Note:
+You can add your own images here or use free stock images from:
+- Unsplash.com
+- Pexels.com
+- Pixabay.com
+
+Make sure to optimize images for web use to ensure fast loading times.

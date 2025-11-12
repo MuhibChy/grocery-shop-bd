@@ -1,0 +1,76 @@
+# Grocery Shop Management System - Git Ignore File
+
+# Environment and Config Files
+.env
+config/database.php
+config/local_config.php
+
+# Log Files
+logs/
+*.log
+
+# Upload Directories
+assets/uploads/*
+!assets/uploads/.gitkeep
+uploads/
+temp/
+
+# Cache Files
+cache/
+tmp/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# PHP Files
+*.php~
+*.php.bak
+
+# Composer
+vendor/
+composer.lock
+
+# Node Modules (if using)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build Files
+dist/
+build/
+
+# Security Files
+setup/create_admin.php
+test.php
+phpinfo.php
+
+# Database Backups
+*.sql.backup
+*.sql.bak
+database_backup/
+
+# Session Files
+sessions/
+
+# Error Logs
+error_log
+php_errors.log
+
+# Sensitive Configuration
+config/production.php
+config/staging.php
+.htpasswd
