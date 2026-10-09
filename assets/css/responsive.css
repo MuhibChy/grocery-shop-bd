@@ -18,6 +18,45 @@
     padding: 0 15px;
 }
 
+/* Prevent horizontal overflow */
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+/* Navbar Mobile Improvements */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background: var(--glass-bg);
+        backdrop-filter: var(--glass-backdrop);
+        -webkit-backdrop-filter: var(--glass-backdrop);
+        border: 1px solid var(--glass-border);
+        border-radius: var(--radius-md);
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+    
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .nav-item {
+        margin-bottom: 0.5rem;
+    }
+    
+    .nav-link-glass {
+        display: block;
+        padding: 0.75rem 1rem;
+    }
+    
+    .d-flex.align-items-center.gap-3 {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+
 /* Mobile Navigation */
 .mobile-nav {
     display: block;
@@ -384,6 +423,48 @@
     .mobile-search {
         margin: 0 0.5rem;
     }
+    
+    /* Hero section adjustments */
+    .hero-section {
+        padding: 60px 0 !important;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem !important;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
+    }
+    
+    .hero-features {
+        display: none;
+    }
+    
+    /* Navbar improvements */
+    .navbar-brand {
+        font-size: 1rem;
+    }
+    
+    /* Categories grid */
+    #categoriesGrid .col-lg-2 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    /* Product cards */
+    .product-card {
+        margin-bottom: 1rem;
+    }
+    
+    .product-image {
+        height: 150px !important;
+    }
 }
 
 /* Tablet Portrait (576px and up) */
@@ -413,6 +494,17 @@
     
     .cart-mobile {
         bottom: 2rem;
+    }
+    
+    /* Hero section */
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    /* Categories */
+    #categoriesGrid .col-lg-2 {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
     }
 }
 

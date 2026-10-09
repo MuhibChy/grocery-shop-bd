@@ -627,3 +627,77 @@ body {
 .search-result-item:hover {
     background: var(--glass-green-light);
 }
+
+/* Hero Section Improvements */
+.hero-section {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content h1 {
+    line-height: 1.2;
+}
+
+.hero-buttons {
+    flex-wrap: wrap;
+}
+
+/* Product Cards */
+.product-card {
+    transition: all var(--transition-normal);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-image img,
+.product-image .placeholder-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-normal);
+}
+
+.product-card:hover .product-image img,
+.product-card:hover .product-image .placeholder-image {
+    transform: scale(1.05);
+}
+
+/* Category Cards */
+.category-icon {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navigation improvements */
+.navbar-glass {
+    z-index: 1000;
+}
+
+/* Footer improvements */
+footer a {
+    transition: color var(--transition-fast);
+}
+
+footer a:hover {
+    color: var(--primary-green) !important;
+}
+
+/* Feature items */
+.feature-item {
+    padding: 1rem;
+    transition: transform var(--transition-normal);
+}
+
+.feature-item:hover {
+    transform: translateY(-3px);
+}
